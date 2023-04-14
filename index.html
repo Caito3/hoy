@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <title> Temperaturas </title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="archivos.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <div class="mostrar">
+            <div class="tex"> Pronostico del Clima </div>
+            <div class="agregar">Agrege la ciudad y el pais para buscar</div>
+            <div id="clima" class="clima"></div>
+            <input type="text" class="ciudad" id="ciudad" >
+            <select id="paises" class="paises">
+                <option value="AR">Argentina</option>
+                <option value="CO">Colombia</option>
+                <option value="CR"> Costa Rica </option>
+                <option value="ES"> España</option>
+                <option value="PE">Peru</option>
+                <option value="MX">Mexico</option>
+                <option value="US"> Estados Unidos</option>
+            </select>
+            <button id="boton" class="boton" onclick="traer(), hacer(), mas()"> Ver el clima</button>
+            <div class="pra" id ="pra"> Verifique que el nombre de la CIUDAD este escrito correctamente para no tener ERRORES</div>
+            <div class="com" id="com">Completar los campos!</div>
+        </div>
+        
+    </body>
+</html>

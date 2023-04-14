@@ -1,0 +1,177 @@
+.mostrar{
+
+    width: 60%;
+    height: 97vh;
+    margin-left: 20%;
+    margin-top: 1vh;
+    background-color: rgb(13, 183, 250);
+    position: relative;
+    border-radius: 13%;
+}
+
+.tex{
+    margin-left: 23%;
+    margin-top: 1vh;
+    font-size: 238%;
+    font-weight: 800;
+    font-family: arial;
+    position: absolute;
+    text-align: center;
+    color: rgb(141, 234, 247);
+}
+.agregar{
+
+    margin-left: 28%;
+    margin-top: 11vh;
+    font-size: 103%;
+    font-weight: 800;
+    font-family: arial;
+    color: rgb(149, 149, 151);
+    position: absolute;
+}
+.ciudad{
+
+    width: 73%;
+    height: 7vh;
+    margin-left: 13%;
+    margin-top: 68vh;
+    border: none;
+    border-radius: 13px;
+    color:grey;
+    text-align:center;
+    font-size: 140%;
+    cursor: pointer;
+}
+
+.paises{
+    width: 74%;
+    height: 7vh;
+    margin-left: 13%;
+    margin-top: 1.3vh;
+    border-radius: 13px;
+    border:none;
+    font-size: 130%;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+.boton{
+    margin-left: 20%;
+    margin-top: 3vh;
+    width: 60%;
+    height: 8vh;
+    
+    border-radius: 13px;
+    border: none;
+    font-size: 160%;
+    font-weight: 800;
+    font-family: arial;
+    background-color: rgb(30, 247, 192);
+    color: white;
+    cursor: pointer;
+
+}
+
+.clima{
+
+    width: 80%;
+    height: 46vh;
+    position: absolute;
+    margin-top: 17vh;
+    margin-left: 20%;
+}
+
+
+.hoy{
+    font-size: 280%;
+    margin-left: 10%;
+    margin-top: 3vh;
+    color:white
+}
+
+
+body{
+    background-image:url("https://img2.wallspic.com/previews/7/0/1/9/69107/69107-dia-temporada-papel-costa-tropicos-x750.jpg") ;
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.fotos{
+    width:23%;
+    height: 23vh;
+    margin-left: 28%;
+    margin-top: -17vh;
+}
+
+
+
+
+.tem{
+    font-size: 430%;
+    margin-left: 28%;
+    margin-top: -6vh;
+    color:white
+}
+
+.max{
+    font-size: 200%;
+    margin-left: 28%;
+    color: grey;
+    margin-top: -10vh;
+    font-weight: 800;
+}
+.temperatura{
+    font-size: 200%;
+    margin-left: 28%;
+    color:grey;
+    margin-top: -4vh;
+    font-weight: 800;
+}
+.boton:hover{
+    background-color: rgb(20, 214, 188);
+    
+}
+
+
+.pra{
+    margin-left: 3%;
+    margin-top: -40vh;
+    font-size: 130%;
+    text-align: center;
+    color: white;
+    display: none;
+}
+.com{
+    margin-left: 38%;
+    margin-top: -30vh;
+    color: white;
+    font-size: 130%;
+    font-weight: 800;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ciudad:focus{
+background-color: rgb(228, 228, 228);
+border: 0;
+outline: none;
+}
+.paises:focus{
+    background-color: rgb(228, 228, 228);
+}
