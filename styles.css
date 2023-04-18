@@ -34,7 +34,7 @@
     width: 73%;
     height: 7vh;
     margin-left: 13%;
-    margin-top: 68vh;
+    margin-top: 1.3vh;
     border: none;
     border-radius: 13px;
     color:grey;
@@ -47,7 +47,7 @@
     width: 74%;
     height: 7vh;
     margin-left: 13%;
-    margin-top: 1.3vh;
+    margin-top: 68vh;
     border-radius: 13px;
     border:none;
     font-size: 130%;
@@ -174,4 +174,172 @@ outline: none;
 }
 .paises:focus{
     background-color: rgb(228, 228, 228);
+}
+
+
+@media only screen and (max-width: 1030px){
+    .tex{
+        margin-left: 13%;
+    }
+    .agregar{
+        margin-left: 20%;
+    }
+    .hoy{
+        margin-top: -1vh;
+        margin-left: 1%;
+    }
+    .fotos{
+        margin-left: 28%;
+    }
+    .tem{
+        margin-left: 23%;
+    }
+    .max{
+        margin-left: 23%;
+    }
+    .temperatura{
+        margin-left: 23%;
+        margin-top: -7vh;
+    }
+    .paises{
+        margin-top: 70vh;
+    }
+    .boton{
+        margin-top: 1vh;
+    }
+}
+
+
+@media only screen and ( max-width: 800px){
+.tex{
+    margin-left: 13%;
+    font-size: 30px;
+}
+.agregar{
+    margin-left: 13%;
+    margin-top: 10%;
+}
+.hoy{
+    margin-top: -3vh;
+    margin-left: 10%;
+}
+.fotos{
+    margin-left: 23%;
+    margin-top: -18vh;
+    width: 32%;
+}
+.tem{
+    margin-left: 17%;
+    margin-top: -8vh;
+}
+.max{
+    margin-left: 17%;
+    margin-top: -13vh;
+}
+.temperatura{
+    margin-left: 17%;
+}
+.paises{
+    margin-top: 70vh;
+}
+.boton{
+    margin-top: 1vh;
+}
+}
+@media only screen and (max-width: 500px){
+    .tex{
+        margin-top: 3vh;
+        margin-left: 10%;
+        font-size: 23px;
+    }
+    .agregar{
+        margin-top: 8vh;
+        margin-left: 3%;
+        text-align: center;
+    }
+    .hoy{
+        margin-top: -1vh;
+        margin-left: 4%;
+    }
+    .fotos{
+        margin-left: 18%;
+        width: 40%;
+    }
+    .mostrar{
+        width: 80%;
+        margin-left: 11%;
+    }
+    .tem{
+        margin-left: 17%;
+        font-size: 50px;
+    }
+    .max{
+        font-size: 170%;
+        margin-left: 13%;
+        margin-top: -7vh;
+    }
+    .temperatura{
+        font-size: 170%;
+        margin-left: 13%;
+        margin-top: -6vh;
+    }
+    .paises{
+        margin-top: 71vh;
+    }
+    .boton{
+        margin-top: 1vh;
+    }
+}
+@media only screen and ( max-width: 320px){
+    .tex{
+        margin-left: 1%;
+        margin-top: 1vh;
+    }
+    .agregar{
+        margin-top: 13vh;
+    }
+    .hoy{
+        margin-top: 7vh;
+        margin-left: -23%;
+        font-size: 200%;
+        text-align: center;
+    }
+    .fotos{
+        width: 60%;
+        margin-left: 7%;
+        margin-top: -13vh;
+    }
+    .tem{
+        margin-left: 10%;
+        margin-top: -6vh;
+    }
+    .max{
+        font-size: 170%;
+        margin-left: 4%;
+        margin-top: -23%;
+    }
+    .temperatura{
+        font-size: 170%;
+        margin-left: 4%;
+        
+    }
+    .mostrar{
+        height: 108vh;
+        border-radius: 23px;
+    }
+    .paises{
+        margin-top: 80vh;
+        width: 93%;
+        margin-left: 4%;
+    }
+    .boton{
+        width: 93%;
+        margin-left: 4%;
+        font-size: 150%;
+        margin-top: 3vh;
+    }
+    .ciudad{
+        width: 93%;
+        margin-left: 3%;
+    }
 }
