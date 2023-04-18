@@ -247,7 +247,7 @@ outline: none;
 }
 }
 
-@media only screen and ( max-width: 400px){
+@media only screen and ( max-width: 500px){
     .tex{
         margin-left: 4%;
         margin-top: 3vh;
@@ -287,6 +287,8 @@ outline: none;
     .mostrar{
         height: 108vh;
         border-radius: 23px;
+        width: 80%;
+        margin-left: 11%;
     }
     .paises{
         margin-top: 80vh;
