@@ -1,12 +1,7 @@
 function traer(){
 
-var clima = document.getElementById("clima")
-var boton = document.getElementById("boton")
-var ciudad = document.getElementById("ciudad").value
-var paises = document.getElementById("paises").value
-
-
-
+var dat = document.getElementById("clima")
+dat.innerHTML = ""
 }
 
 function hacer(ciudad, paises){
