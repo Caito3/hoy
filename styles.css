@@ -247,16 +247,18 @@ outline: none;
 }
 }
 
-@media only screen and ( max-width: 380px){
+@media only screen and ( max-width: 400px){
     .tex{
         margin-left: 4%;
         margin-top: 3vh;
     }
     .agregar{
-        margin-top: 13vh;
+        margin-top: 18vh;
+        text-align: center;
+        margin-left: 0%;
     }
     .hoy{
-        margin-top: 7vh;
+        margin-top: 10vh;
         margin-left: -23%;
         font-size: 200%;
         text-align: center;
@@ -270,16 +272,17 @@ outline: none;
     .tem{
         margin-left: 10%;
         margin-top: -6vh;
+        font-size: 300%;
     }
     .max{
         font-size: 170%;
         margin-left: 7%;
-        margin-top: -17%;
+        margin-top: -20%;
     }
     .temperatura{
         font-size: 170%;
         margin-left: 7%;
-        margin-top: -3vh;
+        margin-top: -4vh;
     }
     .mostrar{
         height: 108vh;
