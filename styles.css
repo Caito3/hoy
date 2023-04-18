@@ -290,7 +290,7 @@ outline: none;
         margin-top: 1vh;
     }
 }
-@media only screen and ( max-width: 320px){
+@media only screen and ( max-width: 380px){
     .tex{
         margin-left: 1%;
         margin-top: 1vh;
