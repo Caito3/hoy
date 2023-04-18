@@ -296,8 +296,8 @@ outline: none;
 }
 @media only screen and ( max-width: 380px){
     .tex{
-        margin-left: 1%;
-        margin-top: 1vh;
+        margin-left: 4%;
+        margin-top: 3vh;
     }
     .agregar{
         margin-top: 13vh;
@@ -312,6 +312,7 @@ outline: none;
         width: 60%;
         margin-left: 7%;
         margin-top: -13vh;
+        
     }
     .tem{
         margin-left: 10%;
@@ -319,13 +320,13 @@ outline: none;
     }
     .max{
         font-size: 170%;
-        margin-left: 4%;
-        margin-top: -23%;
+        margin-left: 7%;
+        margin-top: -17%;
     }
     .temperatura{
         font-size: 170%;
-        margin-left: 4%;
-        
+        margin-left: 7%;
+        margin-top: -3vh;
     }
     .mostrar{
         height: 108vh;
