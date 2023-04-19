@@ -253,7 +253,7 @@ outline: none;
 
 @media only screen and ( max-width: 500px){
     .tex{
-        margin-left: 4%;
+        margin-left: 10%;
         margin-top: 3vh;
     }
     .agregar{
@@ -261,6 +261,7 @@ outline: none;
         text-align: center;
         margin-left: 3%;
         width: 90%;
+        
     }
     .hoy{
         margin-top: 10vh;
@@ -269,7 +270,7 @@ outline: none;
         text-align: center;
     }
     .fotos{
-        width: 60%;
+        width: 50%;
         margin-left: 7%;
         margin-top: -13vh;
         
@@ -309,5 +310,11 @@ outline: none;
     .ciudad{
         width: 93%;
         margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 440px){
+    .tex{
+        margin-left: 4%;
+        margin-top: 3vh;
     }
 }
