@@ -4,7 +4,7 @@
     height: 97vh;
     margin-left: 20%;
     margin-top: 1vh;
-    background-color: rgb(13, 183, 250);
+    background-color: rgb(43, 195, 255);
     position: relative;
     border-radius: 80px;
 }
@@ -26,7 +26,7 @@
     font-size: 103%;
     font-weight: 800;
     font-family: arial;
-    color: rgb(149, 149, 151);
+    color: rgb(230, 230, 230);
     position: absolute;
 }
 .ciudad{
@@ -125,7 +125,7 @@ background-size: cover;
 .temperatura{
     font-size: 200%;
     margin-left: 28%;
-    color:grey;
+    color: grey;
     margin-top: -4vh;
     font-weight: 800;
 }
@@ -186,20 +186,23 @@ outline: none;
     }
     .hoy{
         margin-top: -1vh;
-        margin-left: 1%;
+        margin-left: -13%;
     }
     .fotos{
-        margin-left: 28%;
+        margin-left: 23%;
+        margin-top: -13vh;
+        width: 30%;
     }
     .tem{
         margin-left: 23%;
     }
     .max{
         margin-left: 23%;
+        margin-top: -3vh;
     }
     .temperatura{
         margin-left: 23%;
-        margin-top: -7vh;
+        margin-top: -3vh;
     }
     .paises{
         margin-top: 70vh;
@@ -238,6 +241,7 @@ outline: none;
 }
 .temperatura{
     margin-left: 17%;
+    margin-top: -7vh;
 }
 .paises{
     margin-top: 70vh;
@@ -250,12 +254,13 @@ outline: none;
 @media only screen and ( max-width: 500px){
     .tex{
         margin-left: 4%;
-        margin-top: 4vh;
+        margin-top: 3vh;
     }
     .agregar{
         margin-top: 18vh;
         text-align: center;
-        margin-left: 0.7%;
+        margin-left: 3%;
+        width: 90%;
     }
     .hoy{
         margin-top: 10vh;
@@ -270,19 +275,19 @@ outline: none;
         
     }
     .tem{
-        margin-left: 11%;
+        margin-left: 20%;
         margin-top: -6vh;
         font-size: 300%;
     }
     .max{
         font-size: 170%;
-        margin-left: 7%;
+        margin-left: 13%;
         margin-top: -13%;
     }
     .temperatura{
         font-size: 170%;
-        margin-left: 7%;
-        margin-top: -3vh;
+        margin-left: 13%;
+        margin-top: -4vh;
     }
     .mostrar{
         height: 108vh;
