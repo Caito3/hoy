@@ -271,24 +271,24 @@ outline: none;
     }
     .fotos{
         width: 50%;
-        margin-left: 10%;
+        margin-left: 11%;
         margin-top: -7vh;
         height: 17vh;
         
     }
     .tem{
-        margin-left: 20%;
+        margin-left: 18%;
         margin-top: -3vh;
         font-size: 300%;
     }
     .max{
         font-size: 170%;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: -13%;
     }
     .temperatura{
         font-size: 170%;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: -4vh;
     }
     .mostrar{
