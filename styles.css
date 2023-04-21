@@ -6,7 +6,7 @@
     margin-top: 1vh;
     background-color: rgb(43, 195, 255);
     position: relative;
-    border-radius: 80px;
+    border-radius: 30px;
 }
 
 .tex{
@@ -271,7 +271,7 @@ outline: none;
     }
     .fotos{
         width: 50%;
-        margin-left: 7%;
+        margin-left: 10%;
         margin-top: -7vh;
         height: 17vh;
         
