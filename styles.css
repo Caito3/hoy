@@ -270,35 +270,35 @@ outline: none;
         text-align: center;
     }
     .fotos{
-        width: 50%;
-        margin-left: 11%;
-        margin-top: -7vh;
-        height: 17vh;
+        width: 23%;
+        margin-left: 23%;
+        margin-top: -13vh;
+        height: 13vh;
         
     }
     .tem{
-        margin-left: 18%;
+        margin-left: 20%;
         margin-top: -3vh;
         font-size: 300%;
     }
     .max{
         font-size: 170%;
-        margin-left: 11%;
+        margin-left: 17%;
         margin-top: -13%;
     }
     .temperatura{
         font-size: 170%;
-        margin-left: 11%;
+        margin-left: 17%;
         margin-top: -4vh;
     }
     .mostrar{
-        height: 108vh;
+        height: 98vh;
         border-radius: 23px;
         width: 90%;
         margin-left: 7%;
     }
     .paises{
-        margin-top: 80vh;
+        margin-top: 69vh;
         width: 93%;
         margin-left: 4%;
     }
