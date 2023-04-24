@@ -271,15 +271,15 @@ outline: none;
     }
 
     .com{
-        margin-left: 3%;
+        margin-left: 13%;
         margin-top: -40vh;
         width: 90%;
     }
     .fotos{
-        width: 40%;
+        width: 43%;
         margin-left: 18%;
         margin-top: -10vh;
-        height: 17vh;
+        height: 16vh;
         
     }
     .tem{
@@ -289,12 +289,12 @@ outline: none;
     }
     .max{
         font-size: 170%;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: -13%;
     }
     .temperatura{
         font-size: 170%;
-        margin-left: 13%;
+        margin-left: 11%;
         margin-top: -4vh;
     }
     .mostrar{
