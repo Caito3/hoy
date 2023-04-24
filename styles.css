@@ -269,6 +269,11 @@ outline: none;
         font-size: 200%;
         text-align: center;
     }
+
+    .com{
+        margin-left: 23%;
+        margin-top: -40vh;
+    }
     .fotos{
         width: 40%;
         margin-left: 23%;
