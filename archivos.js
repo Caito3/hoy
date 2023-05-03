@@ -33,7 +33,7 @@ fetch(url)
         a.style.display = "block"
         setTimeout(function(){
             a.style.display = "none"
-        },8000)
+        },10000)
     }
         else{
             
@@ -73,11 +73,6 @@ console.log(dataJSON.weather[0].icon)
 
 
 }
-
-
-
-
-
 
 
 

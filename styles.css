@@ -7,6 +7,9 @@
     background-color: rgb(43, 195, 255);
     position: relative;
     border-radius: 30px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnr-oEVz1YTbwgMtDl2s96tzEWdFFsUr2aeg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tex{
@@ -145,7 +148,7 @@ background-size: cover;
 }
 .com{
     margin-left: 38%;
-    margin-top: -30vh;
+    margin-top: -32vh;
     color: white;
     font-size: 130%;
     font-weight: 800;
