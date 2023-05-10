@@ -10,7 +10,7 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnr-oEVz1YTbwgMtDl2s96tzEWdFFsUr2aeg&usqp=CAU");
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 4px solid rgb(20, 60, 236);
+    border-bottom: 4px solid rgb(23, 64, 250);
     
 }
 
@@ -33,6 +33,7 @@
     font-family: arial;
     color: rgb(230, 230, 230);
     position: absolute;
+    text-shadow: 1.3px 1px rgb(73, 73, 73);
 }
 .ciudad{
 
@@ -94,7 +95,8 @@
     font-size: 280%;
     margin-left: 10%;
     margin-top: 3vh;
-    color:white
+    color:white;
+    text-shadow: 1.3px 1.8px rgb(83, 83, 83);
 }
 
 
@@ -120,7 +122,8 @@ background-size: cover;
     font-size: 430%;
     margin-left: 28%;
     margin-top: -6vh;
-    color:white
+    color:white;
+    text-shadow: 1.8px 1.3px rgb(83, 82, 82);
 }
 
 .max{
@@ -129,6 +132,7 @@ background-size: cover;
     color: rgb(144, 145, 150);
     margin-top: -10vh;
     font-weight: 800;
+    
 }
 .temperatura{
     font-size: 200%;
@@ -145,7 +149,7 @@ background-size: cover;
 
 .pra{
     margin-left: 3%;
-    margin-top: -40vh;
+    margin-top: -43vh;
     font-size: 130%;
     text-align: center;
     color: white;
