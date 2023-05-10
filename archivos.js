@@ -5,11 +5,13 @@ dat.innerHTML = ""
 }
 
 function hacer(ciudad, paises){
+    //traemos todas las variables para trabajar con el html
 var clima = document.getElementById("clima")
 var boton = document.getElementById("boton")
 var ciudad = document.getElementById("ciudad").value
 var paises = document.getElementById("paises").value
 
+//validamos de que no haya campos vacios
 if(ciudad === "" || paises === ""){
     var a = document.getElementById("com")
     a.style.display = "block"
@@ -17,7 +19,11 @@ if(ciudad === "" || paises === ""){
         a.style.display = "none"
     },7000)
 }
+//si no hay campos vacios continuamos con la funcion 
 else{
+
+//traemos los datos de nuestra api para mostrar
+//usamos las variables de ciudad y paises que fueron escritas por el usariopara buscar la ciudad y el pais que queremos
 
 const api = 'abb3c5e4202b40f9bd71a4c7b8c53e86'
 const url =`https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${paises}&appid=${api}`
@@ -28,6 +34,7 @@ fetch(url)
 })
 
 .then(dataJSON=>{
+    //si nos devuelve error lo comunicamos 
     if(dataJSON.cod == '404' ){
         var a = document.getElementById("pra")
         a.style.display = "block"
@@ -41,6 +48,7 @@ fetch(url)
     hac(dataJSON)
 })
 function hac(dataJSON){
+    //traemos todos los datos de la ciudad y el pais buscados
     var temp = dataJSON.main.temp
     temp = parseInt(temp -273.15)
     var temp_min = dataJSON.main.temp_min
@@ -48,9 +56,8 @@ function hac(dataJSON){
     var temp_max = dataJSON.main.temp_max
     temp_max = parseInt(temp_max -273.15)
 
-
+    //mostramos esos datos
 const con = document.createElement('div')
-
 con.innerHTML=`
 <h5 class="hoy">Clima en ${dataJSON.name}</h5>
 <img class="fotos" src="https://openweathermap.org/img/wn/${dataJSON.weather[0].icon}@2x.png">
@@ -58,6 +65,9 @@ con.innerHTML=`
 <p class="max">Max: ${temp_max}°C</p>
 <p class="temperatura">Min: ${temp_min}°C</p>
 `
+
+
+
 
 clima.appendChild(con)
 
