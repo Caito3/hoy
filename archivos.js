@@ -23,7 +23,7 @@ if(ciudad === "" || paises === ""){
 else{
 
 //traemos los datos de nuestra api para mostrar
-//usamos las variables de ciudad y paises que fueron escritas por el usariopara buscar la ciudad y el pais que queremos
+//usamos las variables de ciudad y paises que fueron escritas por el usario para buscar la ciudad y el pais que queremos
 
 const api = 'abb3c5e4202b40f9bd71a4c7b8c53e86'
 const url =`https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${paises}&appid=${api}`

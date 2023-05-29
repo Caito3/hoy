@@ -15,7 +15,7 @@
 }
 
 .tex{
-    margin-left: 23%;
+    margin-left: 23.7%;
     margin-top: 1vh;
     font-size: 238%;
     font-weight: 800;
@@ -113,6 +113,7 @@ background-size: cover;
     height: 23vh;
     margin-left: 28%;
     margin-top: -17vh;
+    
 }
 
 
@@ -129,17 +130,18 @@ background-size: cover;
 .max{
     font-size: 200%;
     margin-left: 28%;
-    color: rgb(144, 145, 150);
+    color: rgb(71, 72, 74);
     margin-top: -10vh;
     font-weight: 800;
-    
+    text-shadow: 1.3px 1.3px white
 }
 .temperatura{
     font-size: 200%;
     margin-left: 28%;
-    color: rgb(143, 146, 163);
+    color: rgb(73, 74, 79);
     margin-top: -4vh;
     font-weight: 800;
+    text-shadow: 1.3px 1.3px white;
 }
 .boton:hover{
     background-color: rgb(20, 214, 188);
