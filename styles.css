@@ -23,6 +23,7 @@
     position: absolute;
     text-align: center;
     color: rgb(141, 234, 247);
+    text-shadow: 1.3px 1.3px rgb(255, 255, 255);
 }
 .agregar{
 
@@ -33,7 +34,7 @@
     font-family: arial;
     color: rgb(230, 230, 230);
     position: absolute;
-    text-shadow: 1.3px 1px rgb(73, 73, 73);
+    text-shadow: 1.3px 1px rgb(90, 91, 97);
 }
 .ciudad{
 
