@@ -93,3 +93,14 @@ function mas(){
     var mas = document.getElementById("clima")
     mas.innerHTML=""
 }
+//pasamos la primer letra de cada palabra de la ciudad a mayusculas
+function may(){
+var tex = document.getElementById("ciudad")
+var texto = document.getElementById("ciudad").value 
+var texArray= texto.split(" ")
+for (i = 0; i< texArray.length; i++){
+    texArray[i] = texArray[i][0].toUpperCase() + texArray[i].substr(1) 
+}
+var ag = texArray.join(" ")
+tex.value = ag
+}

@@ -6,11 +6,12 @@
         <link rel="stylesheet" href="styles.css" type="text/css">
         <title> Temperaturas </title>
         <meta charset="UTF-8">
-        <script type="text/javascript" src="archivos.js"></script>
+        <script type="text/javascript" defer src="archivos.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/6214/6214077.png">
     </head>
     <body>
+        
         <div class="mostrar">
             <div class="tex"> Pronostico del Clima </div>
             <div class="agregar">Agregue la ciudad y el pais para buscar</div>
@@ -25,9 +26,9 @@
                 <option value="MX">Mexico</option>
                 <option value="US"> Estados Unidos</option>
             </select>
-            <input type="text" class="ciudad" id="ciudad" onclick="traer()" >
+            <input type="text" class="ciudad" id="ciudad" onclick="traer()" onkeypress="may()" >
             <button id="boton" class="boton" onclick="traer(), hacer(), mas()"> Ver el clima</button>
-            <div class="pra" id ="pra"> Verifique que el nombre de la CIUDAD o PAIS este escrito correctamente para no tener ERRORES</div>
+            <div class="pra" id ="pra"> Verificar la correcta escritura de la CIUDAD o el PAIS seleccionado por usted </div>
             <div class="com" id="com">Completar los campos!</div>
         </div>
         

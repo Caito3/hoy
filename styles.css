@@ -1,9 +1,9 @@
 .mostrar{
 
     width: 60%;
-    height: 97vh;
+    height: 94vh;
     margin-left: 20%;
-    margin-top: 1vh;
+    margin-top: 3vh;
     background-color: rgb(43, 195, 255);
     position: relative;
     border-radius: 30px;
@@ -12,6 +12,7 @@
     background-size: cover;
     border-bottom: 4px solid rgb(23, 64, 250);
     
+    text-align: center;
 }
 
 .tex{
@@ -23,7 +24,7 @@
     position: absolute;
     text-align: center;
     color: rgb(141, 234, 247);
-    text-shadow: 1.3px 1.3px rgb(255, 255, 255);
+    text-shadow: 1.3px 1.3px 1px rgb(255, 255, 255);
 }
 .agregar{
 
@@ -40,7 +41,7 @@
 
     width: 73%;
     height: 7vh;
-    margin-left: 13%;
+    margin-left: 0%;
     margin-top: 1.3vh;
     border: none;
     border-radius: 13px;
@@ -54,7 +55,7 @@
 .paises{
     width: 74%;
     height: 7vh;
-    margin-left: 13%;
+    left: 0%;
     margin-top: 68vh;
     border-radius: 13px;
     border:none;
@@ -65,8 +66,8 @@
     border-bottom: 3px solid rgb(194, 191, 191);
 }
 .boton{
-    margin-left: 20%;
-    margin-top: 3vh;
+    left: 0%;
+    margin-top: 1vh;
     width: 60%;
     height: 8vh;
     
@@ -88,16 +89,18 @@
     height: 46vh;
     position: absolute;
     margin-top: 17vh;
-    margin-left: 20%;
+    left: 0%;
 }
 
 
 .hoy{
+    position: relative;
     font-size: 280%;
-    margin-left: 10%;
+    left: 0%;
     margin-top: 3vh;
     color:white;
     text-shadow: 1.3px 1.8px rgb(83, 83, 83);
+    left: 17%;
 }
 
 
@@ -110,9 +113,10 @@ background-size: cover;
 
 
 .fotos{
+    position: relative;
     width:23%;
     height: 23vh;
-    margin-left: 28%;
+    left: 14%;
     margin-top: -17vh;
     
 }
@@ -157,6 +161,7 @@ background-size: cover;
     text-align: center;
     color: white;
     display: none;
+    font-weight: 800;
 }
 .com{
     margin-left: 38%;
@@ -239,27 +244,27 @@ outline: none;
 }
 .hoy{
     margin-top: -3vh;
-    margin-left: 10%;
+    left: 20%;
 }
 .fotos{
-    margin-left: 23%;
+    left: 4%;
     margin-top: -18vh;
     width: 32%;
 }
 .tem{
-    margin-left: 17%;
+    margin-left: 28%;
     margin-top: -8vh;
 }
 .max{
-    margin-left: 17%;
+    margin-left: 28%;
     margin-top: -13vh;
 }
 .temperatura{
-    margin-left: 17%;
+    margin-left: 28%;
     margin-top: -7vh;
 }
 .paises{
-    margin-top: 70vh;
+    margin-top: 68vh;
 }
 .boton{
     margin-top: 1vh;
@@ -280,7 +285,7 @@ outline: none;
     }
     .hoy{
         margin-top: 10vh;
-        margin-left: -23%;
+        left: 20%;
         font-size: 200%;
         text-align: center;
     }
@@ -292,24 +297,24 @@ outline: none;
     }
     .fotos{
         width: 40%;
-        margin-left: 18%;
+        left: 3%;
         margin-top: -10vh;
         height: 13vh;
         
     }
     .tem{
-        margin-left: 17%;
+        margin-left: 29%;
         margin-top: -3vh;
         font-size: 300%;
     }
     .max{
         font-size: 170%;
-        margin-left: 11%;
+        margin-left: 28%;
         margin-top: -13%;
     }
     .temperatura{
         font-size: 170%;
-        margin-left: 11%;
+        margin-left: 28%;
         margin-top: -4vh;
     }
     .mostrar{
@@ -336,7 +341,7 @@ outline: none;
 }
 @media only screen and (max-width: 440px){
     .tex{
-        margin-left: 4%;
+        margin-left: 3%;
         margin-top: 3vh;
     }
 }
