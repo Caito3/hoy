@@ -321,22 +321,22 @@ outline: none;
         height: 98vh;
         border-radius: 23px;
         width: 90%;
-        margin-left: 7%;
+        margin-left: 6%;
     }
     .paises{
         margin-top: 69vh;
         width: 93%;
-        margin-left: 4%;
+        margin-left: 2%;
     }
     .boton{
         width: 93%;
-        margin-left: 4%;
+        margin-left: 2%;
         font-size: 150%;
         margin-top: 3vh;
     }
     .ciudad{
         width: 93%;
-        margin-left: 3%;
+        margin-left: 2%;
     }
 }
 @media only screen and (max-width: 440px){
