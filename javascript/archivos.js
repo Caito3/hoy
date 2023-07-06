@@ -93,12 +93,33 @@ var nubesNormal="https://cdn-icons-png.flaticon.com/128/704/704845.png"
 
 var foto = document.getElementById("foto")
 var tem = document.getElementById("tem")
-foto.src=sol
-foto.style.top="-11vh"
-foto.style.width="22%"
-foto.style.height="18vh"
-tem.style.marginTop="-13vh"
+var max = document.getElementById("max")
+var temperatura = document.getElementById("temperatura")
+var ancho = screen.width
 
+
+if (ancho > 1000 && ancho < 1800){
+
+    foto.style.top="-11vh"
+    foto.style.width="22%"
+    foto.style.height="18vh"
+    tem.style.marginTop="-13vh"
+}
+if ( ancho > 500 && ancho < 1000 ){
+    foto.style.top="-3vh"
+    foto.style.width="28%"
+    foto.style.height="16vh"
+    tem.style.marginTop="-7vh"
+    max.style.marginTop="-13vh"
+}
+if(ancho < 500 && ancho > 230){
+    foto.style.top="3vh"
+    foto.style.width="30%"
+    foto.style.height="18vh"
+    tem.style.marginTop="3vh"
+    max.style.marginTop="-9vh"
+    temperatura.style.marginTop="-7vh"
+}
 if(dataJSON.weather[0].icon === "01d"){
     foto.src=sol
 }

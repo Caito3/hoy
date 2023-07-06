@@ -127,7 +127,6 @@ body{
 
 
 
-
 .tem{
     font-size: 430%;
     margin-left: 28%;
@@ -255,16 +254,16 @@ outline: none;
 }
 .fotos{
     left: 4%;
-    margin-top: -18vh;
+    top: -130vh;
     width: 32%;
 }
 .tem{
     margin-left: 28%;
-    margin-top: -8vh;
+    margin-top: 40vh;
 }
 .max{
     margin-left: 28%;
-    margin-top: -13vh;
+    margin-top: -5vh;
 }
 .temperatura{
     margin-left: 28%;
@@ -291,7 +290,7 @@ outline: none;
         font-size: 113%;
     }
     .hoy{
-        margin-top: 3vh;
+        margin-top: 0vh;
         left: 20%;
         font-size: 200%;
         text-align: center;
