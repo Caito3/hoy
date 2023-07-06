@@ -1,8 +1,8 @@
 .mostrar{
 
-    width: 60%;
+    width: 49%;
     height: 94vh;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 3vh;
     background-color: rgb(43, 195, 255);
     position: relative;
@@ -10,30 +10,30 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnr-oEVz1YTbwgMtDl2s96tzEWdFFsUr2aeg&usqp=CAU");
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 4px solid rgb(23, 64, 250);
+    border-bottom: 4px solid rgb(22, 151, 243);
     
     text-align: center;
 }
 
 .tex{
-    margin-left: 23.7%;
+    margin-left: 20%;
     margin-top: 1vh;
-    font-size: 238%;
-    font-weight: 800;
-    font-family: arial;
+    font-size: 280%;
+    font-weight: 900;
+    font-family: 'PT Sans', sans-serif;
     position: absolute;
     text-align: center;
-    color: rgb(141, 234, 247);
-    text-shadow: 1.3px 1.3px 1px rgb(255, 255, 255);
+    color: rgb(207, 212, 212);
+    text-shadow: 1px 1.3px 1px  rgb(84, 85, 85);
 }
 .agregar{
 
-    margin-left: 28%;
+    margin-left: 25%;
     margin-top: 11vh;
-    font-size: 103%;
+    font-size: 123%;
     font-weight: 800;
-    font-family: arial;
-    color: rgb(230, 233, 235);
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(219, 222, 223);
     position: absolute;
     text-shadow: 1.3px 1px rgb(90, 91, 97);
 }
@@ -66,21 +66,21 @@
     border-bottom: 3px solid rgb(194, 191, 191);
 }
 .boton{
-    left: 0%;
+    left: 3%;
     margin-top: 1vh;
     width: 60%;
     height: 8vh;
-    
     border-radius: 13px;
     border: none;
-    font-size: 160%;
+    font-size: 200%;
     font-weight: 800;
-    font-family: arial;
-    background-color: rgb(30, 247, 192);
-    color: white;
+    font-family: 'PT Sans', "sans-serif";
+    background-color: rgb(42, 225, 238);
+    color: rgb(121, 122, 125);
+    text-shadow: 1.3px 1.3px 1px white;
     cursor: pointer;
-
-    border-bottom: 3px solid rgb(3, 165, 157);
+    border-bottom: 3px solid rgb(88, 172, 168);
+    text-align: center;
 }
 
 .clima{
@@ -96,25 +96,25 @@
 .hoy{
     position: relative;
     font-size: 280%;
-    left: 0%;
-    margin-top: 3vh;
+    margin-top: 0vh;
     color:white;
     text-shadow: 1.3px 1.8px rgb(83, 83, 83);
-    left: 17%;
+    left: 13%;
+    font-family: 'PT Sans', 'sans-serif';
 }
 
 
 body{
     background-image:url("https://img2.wallspic.com/previews/7/0/1/9/69107/69107-dia-temporada-papel-costa-tropicos-x750.jpg") ;
-
-background-repeat: no-repeat;
-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 
 .fotos{
     position: relative;
-    width:23%;
+    width:28%;
     height: 23vh;
     left: 14%;
     margin-top: -17vh;
@@ -130,6 +130,7 @@ background-size: cover;
     margin-top: -6vh;
     color:white;
     text-shadow: 1.8px 1.3px rgb(83, 82, 82);
+    font-family: 'PT Sans', "sans-serif";
 }
 
 .max{
@@ -138,18 +139,20 @@ background-size: cover;
     color: rgb(71, 72, 74);
     margin-top: -10vh;
     font-weight: 800;
-    text-shadow: 1.3px 1.3px white
+    text-shadow: 1.3px 1.3px white;
+    font-family: 'PT Sans', "sans-serif";
 }
 .temperatura{
     font-size: 200%;
     margin-left: 28%;
-    color: rgb(73, 74, 79);
-    margin-top: -4vh;
+    color: rgb(71, 72, 74);
+    margin-top: -5vh;
     font-weight: 800;
     text-shadow: 1.3px 1.3px white;
+    font-family: 'PT Sans', "sans-serif";
 }
 .boton:hover{
-    background-color: rgb(20, 214, 188);
+    background-color: rgb(23, 186, 215);
     
 }
 
@@ -199,10 +202,10 @@ outline: none;
 
 @media only screen and (max-width: 1030px){
     .tex{
-        margin-left: 13%;
+        margin-left: 10%;
     }
     .agregar{
-        margin-left: 20%;
+        left: -8%;
     }
     .hoy{
         margin-top: -1vh;
@@ -273,18 +276,18 @@ outline: none;
 
 @media only screen and ( max-width: 500px){
     .tex{
-        margin-left: 10%;
+        left: 10.3%;
         margin-top: 3vh;
     }
     .agregar{
-        margin-top: 13vh;
+        margin-top: 12vh;
         text-align: center;
-        margin-left: 3%;
+        left: -8%;
         width: 90%;
-        
+        font-size: 113%;
     }
     .hoy{
-        margin-top: 10vh;
+        margin-top: 3vh;
         left: 20%;
         font-size: 200%;
         text-align: center;
@@ -298,13 +301,13 @@ outline: none;
     .fotos{
         width: 40%;
         left: 3%;
-        margin-top: -10vh;
-        height: 13vh;
+        margin-top: -13vh;
+        height: 20vh;
         
     }
     .tem{
         margin-left: 29%;
-        margin-top: -3vh;
+        margin-top: -4vh;
         font-size: 300%;
     }
     .max{
@@ -315,7 +318,7 @@ outline: none;
     .temperatura{
         font-size: 170%;
         margin-left: 28%;
-        margin-top: -4vh;
+        margin-top: -5vh;
     }
     .mostrar{
         height: 98vh;
