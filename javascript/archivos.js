@@ -98,7 +98,7 @@ var temperatura = document.getElementById("temperatura")
 var ancho = screen.width
 
 
-if (ancho > 1000 && ancho < 1800){
+if (ancho > 1000 && ancho < 2000){
 
     foto.style.top="-11vh"
     foto.style.width="22%"
