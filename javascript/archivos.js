@@ -55,20 +55,26 @@ function hac(dataJSON){
     temp_min = parseInt(temp_min -273.15)
     var temp_max = dataJSON.main.temp_max
     temp_max = parseInt(temp_max -273.15)
-
     //mostramos esos datos
-const con = document.createElement('div')
+
+
+
+
+
+
+
+
+
+
+
+    const con = document.createElement('div')
 con.innerHTML=`
 <h5 class="hoy">Clima en ${dataJSON.name}</h5>
-<img class="fotos" src="https://openweathermap.org/img/wn/${dataJSON.weather[0].icon}@2x.png">
-<h2 class="tem">${temp}°C</h2>
-<p class="max">Max: ${temp_max}°C</p>
-<p class="temperatura">Min: ${temp_min}°C</p>
+<img id="foto" class="fotos" src="https://openweathermap.org/img/wn/${dataJSON.weather[0].icon}@2x.png">
+<h2 id="tem" class="tem">${temp}°C</h2>
+<p id="max" class="max">Max: ${temp_max}°C</p>
+<p id="temperatura" class="temperatura">Min: ${temp_min}°C</p>
 `
-
-
-
-
 clima.appendChild(con)
 
 console.log(dataJSON)
@@ -77,6 +83,40 @@ console.log(dataJSON.main.temp)
 console.log(dataJSON.main.temp_min)
 console.log(dataJSON.main.temp_max)
 console.log(dataJSON.weather[0].icon)
+
+
+var sol = "https://cdn-icons-png.flaticon.com/128/2698/2698240.png"
+var nubes = "https://cdn-icons-png.flaticon.com/128/704/704743.png"
+var nubesSol = "https://cdn-icons-png.flaticon.com/128/1332/1332295.png"
+var lluvia = "https://cdn-icons-png.flaticon.com/128/2060/2060872.png"
+var nubesNormal="https://cdn-icons-png.flaticon.com/128/704/704845.png"
+
+var foto = document.getElementById("foto")
+var tem = document.getElementById("tem")
+foto.src=sol
+foto.style.top="-11vh"
+foto.style.width="22%"
+foto.style.height="18vh"
+tem.style.marginTop="-13vh"
+
+if(dataJSON.weather[0].icon === "01d"){
+    foto.src=sol
+}
+else if( dataJSON.weather[0].icon === "04d"){
+    foto.src=nubes
+}
+else if (dataJSON.weather[0].icon === "10d"){
+    foto.src=lluvia
+}
+else if (dataJSON.weather[0].icon === "09d"){
+    foto.src=lluvia
+}
+else if (dataJSON.weather[0].icon === "02d"){
+    foto.src=nubesSol
+}
+else if (dataJSON.weather[0].icon === "03d"){
+    foto.src=nubesNormal
+}
 }
 }
 }

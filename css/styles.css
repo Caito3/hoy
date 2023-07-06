@@ -13,6 +13,7 @@
     border-bottom: 4px solid rgb(22, 151, 243);
     
     text-align: center;
+    box-shadow: 0px 0px 8px 3px rgb(203, 208, 212);
 }
 
 .tex{
@@ -50,6 +51,7 @@
     font-size: 140%;
     cursor: pointer;
     border-bottom: 3px solid rgb(194, 194, 194);
+    transition: 0.3s;
 }
 
 .paises{
@@ -64,6 +66,7 @@
     color: grey;
     cursor: pointer;
     border-bottom: 3px solid rgb(194, 191, 191);
+    transition: 0.3s;
 }
 .boton{
     left: 3%;
@@ -75,12 +78,13 @@
     font-size: 200%;
     font-weight: 800;
     font-family: 'PT Sans', "sans-serif";
-    background-color: rgb(42, 225, 238);
+    background-color: rgb(90, 232, 242);
     color: rgb(121, 122, 125);
     text-shadow: 1.3px 1.3px 1px white;
     cursor: pointer;
     border-bottom: 3px solid rgb(88, 172, 168);
     text-align: center;
+    transition: 0.4s;
 }
 
 .clima{
@@ -96,7 +100,7 @@
 .hoy{
     position: relative;
     font-size: 280%;
-    margin-top: 0vh;
+    margin-top: -2vh;
     color:white;
     text-shadow: 1.3px 1.8px rgb(83, 83, 83);
     left: 13%;
@@ -117,7 +121,7 @@ body{
     width:28%;
     height: 23vh;
     left: 14%;
-    margin-top: -17vh;
+    top:-13vh
     
 }
 
@@ -127,7 +131,7 @@ body{
 .tem{
     font-size: 430%;
     margin-left: 28%;
-    margin-top: -6vh;
+    margin-top:-20vh;
     color:white;
     text-shadow: 1.8px 1.3px rgb(83, 82, 82);
     font-family: 'PT Sans', "sans-serif";
@@ -137,7 +141,7 @@ body{
     font-size: 200%;
     margin-left: 28%;
     color: rgb(71, 72, 74);
-    margin-top: -10vh;
+    margin-top: -11vh;
     font-weight: 800;
     text-shadow: 1.3px 1.3px white;
     font-family: 'PT Sans', "sans-serif";
@@ -146,7 +150,7 @@ body{
     font-size: 200%;
     margin-left: 28%;
     color: rgb(71, 72, 74);
-    margin-top: -5vh;
+    margin-top: -6vh;
     font-weight: 800;
     text-shadow: 1.3px 1.3px white;
     font-family: 'PT Sans', "sans-serif";
