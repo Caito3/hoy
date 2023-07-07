@@ -125,10 +125,10 @@ if(ancho < 500 && ancho > 230){
     temperatura.style.marginTop="-7vh"
 }
 if(ancho < 400 && ancho > 230){
-    foto.style.height="15vh"
-    foto.style.width="38%"
+    foto.style.height="13vh"
+    foto.style.width="34%"
     foto.style.top="8vh"
-    tem.style.marginTop="5vh"
+    tem.style.marginTop="6vh"
     max.style.marginTop="-4vh"
     temperatura.style.marginTop="-3vh"
 }
