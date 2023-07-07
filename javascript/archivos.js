@@ -13,10 +13,10 @@ var paises = document.getElementById("paises").value
 
 //validamos de que no haya campos vacios
 if(ciudad === "" || paises === ""){
-    var a = document.getElementById("com")
-    a.style.display = "block"
+    var com = document.getElementById("com")
+    com.style.display = "block"
     setTimeout(function(){
-        a.style.display = "none"
+        com.style.display = "none"
     },7000)
 }
 //si no hay campos vacios continuamos con la funcion 
@@ -36,10 +36,10 @@ fetch(url)
 .then(dataJSON=>{
     //si nos devuelve error lo comunicamos 
     if(dataJSON.cod == '404' ){
-        var a = document.getElementById("pra")
-        a.style.display = "block"
+        var avisar = document.getElementById("pra")
+        avisar.style.display = "block"
         setTimeout(function(){
-            a.style.display = "none"
+            avisar.style.display = "none"
         },10000)
     }
         else{
@@ -55,18 +55,19 @@ function hac(dataJSON){
     temp_min = parseInt(temp_min -273.15)
     var temp_max = dataJSON.main.temp_max
     temp_max = parseInt(temp_max -273.15)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     //mostramos esos datos
-
-
-
-
-
-
-
-
-
-
-
     const con = document.createElement('div')
 con.innerHTML=`
 <h5 class="hoy">Clima en ${dataJSON.name}</h5>
@@ -84,13 +85,14 @@ console.log(dataJSON.main.temp_min)
 console.log(dataJSON.main.temp_max)
 console.log(dataJSON.weather[0].icon)
 
-
+//imagenes de climas
 var sol = "https://cdn-icons-png.flaticon.com/128/2698/2698240.png"
 var nubes = "https://cdn-icons-png.flaticon.com/128/704/704743.png"
 var nubesSol = "https://cdn-icons-png.flaticon.com/128/1332/1332295.png"
 var lluvia = "https://cdn-icons-png.flaticon.com/128/2060/2060872.png"
 var nubesNormal="https://cdn-icons-png.flaticon.com/128/704/704845.png"
 
+//accedemos a elementos html
 var foto = document.getElementById("foto")
 var tem = document.getElementById("tem")
 var max = document.getElementById("max")
@@ -98,6 +100,8 @@ var temperatura = document.getElementById("temperatura")
 var ancho = screen.width
 
 
+
+//hacemos el responsive de acuerdo a los estilos aplicados desde javascript
 if (ancho > 1000 && ancho < 2000){
 
     foto.style.top="-11vh"
@@ -120,6 +124,9 @@ if(ancho < 500 && ancho > 230){
     max.style.marginTop="-9vh"
     temperatura.style.marginTop="-7vh"
 }
+
+
+//cambiamos los iconos por otros mas visuales
 if(dataJSON.weather[0].icon === "01d"){
     foto.src=sol
 }
@@ -141,10 +148,12 @@ else if (dataJSON.weather[0].icon === "03d"){
 }
 }
 }
+
 function mas(){
     var mas = document.getElementById("clima")
     mas.innerHTML=""
 }
+
 //pasamos la primer letra de cada palabra de la ciudad a mayusculas
 function may(){
 var tex = document.getElementById("ciudad")
