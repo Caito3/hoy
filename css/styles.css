@@ -355,11 +355,11 @@ outline: none;
 }
 @media only screen and (max-width: 440px){
     .tex{
-        margin-left: -6%;
+        margin-left: -5%;
         margin-top: 3vh;
     }
     .hoy{
-        top: 3vh
+        top: 2vh
     }
     .fotos{
         width: 38%;
