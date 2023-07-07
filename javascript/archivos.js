@@ -124,6 +124,13 @@ if(ancho < 500 && ancho > 230){
     max.style.marginTop="-9vh"
     temperatura.style.marginTop="-7vh"
 }
+if(ancho < 400 && ancho > 230){
+    foto.style.width="38%"
+    foto.style.top="8vh"
+    tem.style.marginTop="4vh"
+    max.style.marginTop="-4vh"
+    temperatura.style.marginTop="-3vh"
+}
 
 
 //cambiamos los iconos por otros mas visuales
