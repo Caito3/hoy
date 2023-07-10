@@ -130,7 +130,7 @@ if(ancho < 400 && ancho > 230){
     foto.style.top="10vh"
     tem.style.marginTop="11vh"
     max.style.marginTop="-6vh"
-    temperatura.style.marginTop="-3vh"
+    temperatura.style.marginTop="-4vh"
 }
 
 
