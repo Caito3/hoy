@@ -14,7 +14,7 @@
     
     text-align: center;
     box-shadow: 0px 0px 8px 3px rgb(180, 182, 184);
-    background-position: center;
+    background-position: left  ;
 }
 
 .tex{
@@ -52,7 +52,8 @@
     font-size: 140%;
     cursor: pointer;
     border-bottom: 3px solid rgb(194, 194, 194);
-    transition: 0.3s 
+    transition: 0.3s;
+    font-weight: 700;
 }
 
 .paises{
@@ -68,6 +69,7 @@
     cursor: pointer;
     border-bottom: 3px solid rgb(194, 191, 191);
     transition: 0.3s;
+    font-weight: 700;
 }
 .boton{
     left: 3%;
@@ -122,7 +124,7 @@ body{
     position: relative;
     width:28%;
     height: 23vh;
-    left: 14%;
+    left: 13%;
     top:-13vh
     
 }
@@ -131,7 +133,7 @@ body{
 
 .tem{
     font-size: 430%;
-    margin-left: 28%;
+    margin-left: 25%;
     margin-top:-20vh;
     color:white;
     text-shadow: 1.8px 1.3px rgb(83, 82, 82);
@@ -140,7 +142,7 @@ body{
 
 .max{
     font-size: 200%;
-    margin-left: 28%;
+    margin-left: 25%;
     color: rgb(71, 72, 74);
     margin-top: -11vh;
     font-weight: 800;
@@ -149,7 +151,7 @@ body{
 }
 .temperatura{
     font-size: 200%;
-    margin-left: 28%;
+    margin-left: 25%;
     color: rgb(71, 72, 74);
     margin-top: -6vh;
     font-weight: 800;

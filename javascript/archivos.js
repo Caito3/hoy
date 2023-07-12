@@ -86,7 +86,7 @@ console.log(dataJSON.main.temp_max)
 console.log(dataJSON.weather[0].icon)
 
 //imagenes de climas
-var sol = "https://cdn-icons-png.flaticon.com/128/2698/2698240.png"
+var sol = "https://cdn-icons-png.flaticon.com/128/2698/2698194.png"
 var nubes = "https://cdn-icons-png.flaticon.com/128/704/704743.png"
 var nubesSol = "https://cdn-icons-png.flaticon.com/128/1332/1332295.png"
 var lluvia = "https://cdn-icons-png.flaticon.com/128/2060/2060872.png"
@@ -152,6 +152,12 @@ else if (dataJSON.weather[0].icon === "02d"){
 }
 else if (dataJSON.weather[0].icon === "03d"){
     foto.src=nubesNormal
+}
+else if (dataJSON.weather[0].icon === "04n"){
+    foto.src = nubes
+}
+else if (dataJSON.weather[0].icon === "01n"){
+    foto.src=sol
 }
 }
 }
