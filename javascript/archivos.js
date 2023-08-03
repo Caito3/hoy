@@ -17,7 +17,7 @@ if(ciudad === "" || paises === ""){
     com.style.display = "block"
     setTimeout(function(){
         com.style.display = "none"
-    },7000)
+    },4000)
 }
 //si no hay campos vacios continuamos con la funcion 
 else{
